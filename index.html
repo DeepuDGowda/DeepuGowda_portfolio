@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deepu Gowda | Portfolio</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- JS -->
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <!-- Sticky mobile header (auto-shown ≤768px) -->
+    <div class="header" id="mobileHeader">
+      <img src="./img/Deepu_Image.jpg" alt="Profile" />
+      <p class="profile-text-resp">Deepu Gowda | Technical Writer | Doc-as-code</p>
+      <div
+        class="menu-toggle"
+        aria-label="Open menu"
+        role="button"
+        tabindex="0"
+      >
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+
+    <!-- Backdrop for mobile sidebar -->
+    <div class="backdrop" id="backdrop"></div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div>
+        <img
+          src="./img/Deepu_Image.jpg"
+          alt="Deepu Gowda"
+          class="img-profile"
+        />
+        <p class="profile-text">Deepu Gowda</p>
+        <nav>
+          <a href="#introduction">Introduction</a>
+          <a href="#experience">Experience</a>          
+          <a href="#skills">Skills</a>
+          <a href="#tools">Tools</a>
+          <a href="#awards">Awards</a>
+          <a href="#worksamples">Work Samples</a>
+          <a href="#whyme">Why me</a>
+          <a href="#education">Education</a>
+          <a href="#personalinfo">Personal Info</a>
+          <a href="#thanks">Thank you</a>
+        </nav>
+      </div>
+      <div class="contact-info">
+        <p class="phone-text">📞 +91-9004290064</p>
+        <p class="phone-text">✉️ deepukanagal@gmail.com</p>
+        <p class="phone-text">
+          <i class="fab fa-linkedin"></i>
+          <a
+            href="https://linkedin.com/in/deepu-gowda-88a59763/"
+            style="color: #00bcd4" target="_blank"
+            >LinkedIn</a
+          >
+        </p>
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="main-content">
+      <!-- Introduction -->
+
+      <section class="collapsible" id="introduction" aria-expanded="false">
+        <div
+          class="collapsible__header"
+          tabindex="0"
+          role="button"
+          aria-expanded="false"
+          aria-controls="panel-introduction"
+        >
+          <h2 class="collapsible__title">
+            Introduction
+            <!-- <span class="collapsible__badge">Overview</span> -->
+          </h2>
+          <!-- <i class="chev" aria-hidden="true"></i> -->
+        </div>
+
+        <div class="collapsible__panel" id="panel-introduction" hidden>
+          <div class="intro-wrap">
+            <div class="intro-head">
+              <span class="intro-icon" aria-hidden="true"><i class="fas fa-user-astronaut"></i></span>
+              <p class="intro-lead">
+                Detail‑oriented and versatile <b>Technical Writer</b> with <b>13+ years</b> of experience producing
+                <b>high‑quality documentation</b> across <b>SaaS, fintech, automotive, wind energy,</b> and
+                <b>heavy engineering</b>. Strengths include OpenAPI documentation, dynamic web portals,
+                technical manuals, multimedia, and cross‑functional collaboration—delivering user‑centric content on time.
+                 <!-- in translating complex or ambiguous requirements into structured, engaging learning journeys that align with business objectives. I’ve led cross-functional collaborations with design, marketing, and leadership teams, ensuring that every piece of content—whether a learning module, internal communication, or marketing collateral—drives measurable learner growth and business impact.” -->
+              </p>              
+            </div>
+            <div>
+              <p><b>My expertise lies in:</b></p>
+            </div>
+
+            <!-- Quick metrics -->
+            <!-- <ul class="intro-metrics">
+              <li><i class="fas fa-writing"></i><span>Technical writing</span></li>
+              <li><i class="fas fa-diagram-project"></i><span>OpenAPI / Swagger / Redocly</span></li>
+              <li><i class="fas fa-layer-group"></i><span>Docusaurus &amp; Markdown</span></li>
+              <li><i class="fas fa-people-group"></i><span>Cross‑functional leadership</span></li>
+            </ul> -->
+
+            <!-- Optional focus highlights (remove if not needed) -->
+            <ul class="intro-highlights">
+              <li><i class="fas fa-check-circle"></i> <b>Documentation:</b> I specialize in creating a documents for software and hardware products</li>
+              <li><i class="fas fa-check-circle"></i> <b>Translating Complexity:</b> i specialize in converting complex or ambiguous requirements into structured and engaging document / process.</li>
+              <li><i class="fas fa-check-circle"></i> <b>Business Alignment:</b> Every document / prcoess I create is carefully aligned with key business objectives.</li>
+              <li><i class="fas fa-check-circle"></i> <b>Cross-Functional Leadership:</b>I have a strong history of leading collaborations with design, marketing, and leadership teams.</li>
+              <!-- <li><i class="fas fa-check-circle"></i> <b>Impact Driven:</b> I ensure that all content—from learning modules to marketing materials—is designed to drive measurable growth for learners and deliver a tangible business impact.</li> -->
+              <!-- <li><i class="fas fa-check-circle"></i> Translates complex systems into clear, navigable content.</li> -->
+              <!-- <li><i class="fas fa-check-circle"></i> Champions consistency, accessibility, and developer experience.</li> -->
+              <!-- <li><i class="fas fa-check-circle"></i><b>Doc-as-code</b>: Drives docs‑as‑code workflows with CI/CD and reviews.</li> -->
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Experience -->
+      <section class="collapsible" id="experience" aria-expanded="false">
+        <div
+          class="collapsible__header"
+          tabindex="0"
+          role="button"
+          aria-expanded="false"
+          aria-controls="panel-experience"
+        >
+          <h2 class="collapsible__title">Experience</h2>
+        </div>
+        <div class="collapsible__panel" id="panel-experience" hidden>
+          <div class="xp-item">
+            <p class="sub-title">Perfios Software Solutions</p>
+            <p class="proj-duration">
+              Duration <span class="fa fa-calendar"></span> April-2023 - present
+            </p>
+            <ul class="para-text ul-section-border">
+              <li>
+                Develop and maintain <b>Product Journey</b> documentation for
+                <b>banking products</b>, ensuring alignment with UX best practices
+                and regulatory standards.
+              </li>
+              <li>
+                Create comprehensive <b>API documentation</b> using
+                <b>Swagger Editor and Redocly</b>, streamlining integration
+                processes for internal and external developers.
+              </li>
+              <li>
+                Build and manage <b>web-based documentation</b> portals using
+                <b>Docusaurus and Markdown</b>, enhancing content scalability and
+                accessibility.
+              </li>
+              <li>
+                Produce high-quality <b>product videos</b> to support training,
+                onboarding, and product demonstrations.
+              </li>
+              <li>
+                Collaborate closely with developers and product teams to extract
+                technical insights and translate them into clear, user-friendly
+                documentation.
+              </li>
+              <li>
+                Use <b>GitLab</b> for task tracking, version control, and team
+                collaboration, ensuring consistent progress and agile alignment.
+              </li>
+              <li>
+                Participate in <b>Scrum</b> ceremonies (daily stand-ups, sprint
+                planning, reviews) to support effective sprint execution and team
+                coordination.
+              </li>
+              <li>
+                Assist frontend developers with <b>HTML, CSS,</b> and
+                <b>JavaScript</b> to enable quick prototyping and support UI
+                development.
+              </li>
+            </ul>
+          </div>
+
+          <div class="xp-item">
+            <p class="sub-title">Accion Labs</p>
+            <p class="proj-duration">
+              Duration <span class="fa fa-calendar"></span> Apr 2023- Mar 2024
+            </p>
+            <ul class="para-text ul-section-border">
+              <li>
+                During my tenure at Accion Labs, I was <b>deputed</b> to
+                <b>Perfios Software Solutions</b> as a consultant. Please refer to
+                Perfios section for details.
+              </li>
+            </ul>
+          </div>
+
+          <div class="xp-item">
+            <p class="sub-title">Atlas Copco</p>
+            <p class="proj-duration">
+              Duration <span class="fa fa-calendar"></span> Mar 2019 – Apr 2023
+            </p>
+            <ul class="para-text ul-section-border">
+              <li>
+                Developed and maintained comprehensive
+                <b>Instruction Manuals</b> using <b>Oxygen XML Editor</b> and <b>SDL Tridion Doc</b>,
+                adhering to global documentation standards.
+              </li>
+              <li>
+                Created and revised <b>technical illustrations</b> to align with
+                evolving product specifications and enhance user understanding.
+              </li>
+              <li>
+                Collaborated with <b>cross-functional</b> teams to ensure timely
+                and high-quality documentation delivery.
+              </li>
+              <li>
+                <b>Led</b> the creation and updates of
+                <b>product information brochures team</b>, ensuring accuracy and
+                branding alignment.
+              </li>
+              <li>
+                Acted as the Project Coordinator for the Sweden team, overseeing
+                project timelines and communications.
+              </li>
+            </ul>
+          </div>  
+
+          <div class="xp-item">
+            <p class="sub-title">L&T Technology Services</p>
+            <p class="proj-duration">
+              Duration <span class="fa fa-calendar"></span> Nov 2013 – Feb 2019
+            </p>
+            <ul class="para-text ul-section-border">
+              <li>
+                Worked across
+                <b>automotive, wind energy, heavy engineering, and oil & gas</b>
+                domains.
+              </li>
+              <li>
+                Analyzed engineering and <b>block changes</b> and prepared
+                documentation markups.
+              </li>
+              <li>
+                Created
+                <b
+                  >operation & maintenance manuals, user guides, and parts
+                  manuals</b
+                >.
+              </li>
+              <li>
+                Developed precise <b>assembly/disassembly procedures</b> and led
+                client meetings.
+              </li>
+              <li>
+                Collaborated with publication teams in Europe & US for global
+                consistency.
+              </li>
+              <li>Led a team of <b>15</b> technical writers and illustrators.</li>
+            </ul>
+          </div>
+
+          <div class="xp-item">
+            <p class="sub-title">Quest Informatics</p>
+            <p class="proj-duration">
+              Duration <span class="fa fa-calendar"></span> Sep 2011 – Aug 2013
+            </p>
+            <ul class="para-text">
+              <li>
+                Maintained <b>electronic parts catalogues</b> for
+                <b>Volvo and Mack Trucks</b>.
+              </li>
+              <li>
+                Used <b>KOLA & GLOPPS</b> to analyze part variants and correct
+                catalog errors.
+              </li>
+              <li>
+                Updated <b>SAP</b> to reflect engineering/configuration changes.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="collapsible" id="skills" aria-expanded="false">
+        <div
+          class="collapsible__header"
+          tabindex="0"
+          role="button"
+          aria-expanded="false"
+          aria-controls="panel-skills"
+        >
+          <h2 class="collapsible__title">Skills</h2>
+        </div>
+        <div class="collapsible__panel" id="panel-skills" hidden>
+          <div class="grid">
+            <div class="core-skill-grid">
+          <!-- Example Card -->
+          <div class="skill-card core-skill-card-one">
+            <div class="skill-icon"><i class="fas fa-pencil-alt"></i></div>
+            <h3 class="skill-title">Technical writing & Communication</h3>
+            <p class="skill-desc">
+              Clear and effective communication for documentation.
+            </p>
+          </div>
+
+          <div class="skill-card core-skill-card-two">
+            <div class="skill-icon"><i class="fas fa-book-open"></i></div>
+            <h3 class="skill-title">Content Development</h3>
+            <p class="skill-desc">
+              Ensuring clarity, consistency, and value in every piece of communication.
+            </p>
+          </div>
+
+          <div class="skill-card core-skill-card-one">
+            <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+            <h3 class="skill-title">API Documentation</h3>
+            <p class="skill-desc">
+              User-friendly guides, examples, and references for seamless integration.
+            </p>
+          </div>
+
+          <div class="skill-card core-skill-card-two">
+            <div class="skill-icon"><i class="fas fa-code"></i></div>
+            <h3 class="skill-title">Docs-as-Code</h3>
+            <p class="skill-desc">
+              Using Docusaurus, Markdown, version control for documentation and building optimized websites.
+            </p>
+          </div>
+
+          <div class="skill-card core-skill-card-one">
+            <div class="skill-icon"><i class="fab fa-gitlab"></i></div>
+            <h3 class="skill-title">CI/CD Tools</h3>
+            <p class="skill-desc">
+              GitLab, GitHub Actions, and Continuous Integration/Delivery.
+            </p>
+          </div>
+
+          <div class="skill-card core-skill-card-two">
+            <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+            <h3 class="skill-title">Content management</h3>
+            <p class="skill-desc">
+              Make sure to create a reusale content that can be used across multiple platforms. Publish and revise and maintain
+            </p>
+          </div>
+
+          <div class="skill-card core-skill-card-one">
+            <div class="skill-icon"><i class="fas fa-image"></i></div>
+            <h3 class="skill-title">Multimedia & Video Communication</h3>
+            <p class="skill-desc">
+              Creating visuals to enhance communication.
+            </p>
+          </div>
+
+          <div class="skill-card core-skill-card-two">
+            <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+            <h3 class="skill-title">Static Site Generators</h3>
+            <p class="skill-desc">
+              Building optimized websites with Jekyll, Hugo, etc.
+            </p>
+          </div>
+
+          <div class="skill-card core-skill-card-one">
+            <div class="skill-icon"><i class="fas fa-tasks"></i></div>
+            <h3 class="skill-title">Project Management</h3>
+            <p class="skill-desc">
+              Planning and executing documentation projects effectively.
+            </p>
+          </div>
+
+          <div class="skill-card core-skill-card-two">
+            <div class="skill-icon"><i class="fas fa-users"></i></div>
+            <h3 class="skill-title">Cross-functional Collaboration</h3>
+            <p class="skill-desc">
+              Working with developers, PMs, and other teams.
+            </p>
+          </div>
+
+          <div class="skill-card core-skill-card-one">
+            <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+            <h3 class="skill-title">Problem Solving</h3>
+            <p class="skill-desc">
+              Identifying and solving challenges in documentation and workflows.
+            </p>
+          </div>
+
+          <div class="skill-card core-skill-card-one">
+            <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+            <h3 class="skill-title">illustrations</h3>
+            <p class="skill-desc">
+              Creating a detail oriented illustrations for better understanding.
+            </p>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Software -->
+
+      <!-- new -->
+       <section class="collapsible" id="tools" aria-expanded="false">
+        <div class="collapsible__header" tabindex="0" role="button" aria-expanded="false" aria-controls="panel-tools">
+          <h2 class="collapsible__title">
+            Tools / Software Knowledge
+            <!-- <span class="collapsible__badge">Toolkit</span> -->
+          </h2>
+          <!-- <i class="chev" aria-hidden="true"></i> -->
+        </div>
+
+        <div class="collapsible__panel" id="panel-tools" hidden>
+          <div class="tools-grid">
+
+            <!-- Authoring -->
+            <article class="tool-card">
+              <div class="tool-head">
+                <span class="tool-icon"><i class="fas fa-file-alt"></i></span>
+                <h3 class="tool-name">Authoring</h3>
+              </div>
+              <p class="tool-desc">Structured & unstructured authoring tools for manuals.</p>
+              <ul class="tool-tags">
+                <li>FrameMaker</li><li>XMetaL</li><li>InDesign</li><li>DITA</li><li>MS Word</li>
+              </ul>
+            </article>
+
+            <!-- DDLC -->
+            <article class="tool-card">
+              <div class="tool-head">
+                <span class="tool-icon"><i class="fas fa-file-signature"></i></span>
+                <h3 class="tool-name">DDLC</h3>
+              </div>
+              <p class="tool-desc">Documentation Development Life Cycle — structured approach to doc creation.</p>
+              <ul class="tool-tags">
+                <li>Analysis</li><li>Develop</li><li>Review</li><li>Revision</li><li>Maintain</li>
+              </ul>
+            </article>
+
+            <!-- SDL Tridion Docs -->
+            <article class="tool-card">
+              <div class="tool-head">
+                <span class="tool-icon"><i class="fas fa-box-archive"></i></span>
+                <h3 class="tool-name">SDL Tridion Docs</h3>
+              </div>
+              <p class="tool-desc">Component content management (CCMS) for structured authoring.</p>
+              <ul class="tool-tags">
+                <li>CCMS</li><li>Reuse</li>
+              </ul>
+            </article>
+
+            <!-- Windchill -->
+            <article class="tool-card">
+              <div class="tool-head">
+                <span class="tool-icon"><i class="fas fa-industry"></i></span>
+                <h3 class="tool-name">Windchill</h3>
+              </div>
+              <p class="tool-desc">PLM platform—link docs to product configurations.</p>
+              <ul class="tool-tags">
+                <li>PLM</li><li>BOM</li>
+              </ul>
+            </article>
+
+            <!-- Illustration & Design -->
+            <article class="tool-card">
+              <div class="tool-head">
+                <span class="tool-icon"><i class="fas fa-pen-nib"></i></span>
+                <h3 class="tool-name">Illustration &amp; Design</h3>
+              </div>
+              <p class="tool-desc">Vector and UI design for visuals and video edits.</p>
+              <ul class="tool-tags">
+                <li>Illustrator</li><li>Figma</li><li>Photoshop</li><li>Adobe XD</li>
+              </ul>
+            </article>
+
+            <!-- JIRA -->
+            <article class="tool-card">
+              <div class="tool-head">
+                <span class="tool-icon"><i class="fas fa-tasks"></i></span>
+                <h3 class="tool-name">JIRA</h3>
+              </div>
+              <p class="tool-desc">Project tracking and agile workflows for documentation.</p>
+              <ul class="tool-tags">
+                <li>Scrum</li><li>Boards</li>
+              </ul>
+            </article>
+
+            <!-- OpenAPI -->
+            <article class="tool-card">
+              <div class="tool-head">
+                <span class="tool-icon"><i class="fas fa-diagram-project"></i></span>
+                <h3 class="tool-name">OpenAPI</h3>
+              </div>
+              <p class="tool-desc">Define and document REST APIs in a standardized way.</p>
+              <ul class="tool-tags">
+                <li>3.0+</li><li>YAML/JSON</li>
+              </ul>
+            </article>
+
+            <!-- Swagger -->
+            <article class="tool-card">
+              <div class="tool-head">
+                <span class="tool-icon"><i class="fas fa-sitemap"></i></span>
+                <h3 class="tool-name">Swagger</h3>
+              </div>
+              <p class="tool-desc">Ecosystem for authoring, previewing, and testing API specs.</p>
+              <ul class="tool-tags">
+                <li>Editor</li><li>UI</li><li>Codegen</li>
+              </ul>
+            </article>
+
+            <!-- Redocly -->
+            <article class="tool-card">
+              <div class="tool-head">
+                <span class="tool-icon"><i class="fas fa-book-open"></i></span>
+                <h3 class="tool-name">Redocly</h3>
+              </div>
+              <p class="tool-desc">Publish polished API portals and reference docs.</p>
+              <ul class="tool-tags">
+                <li>Lint</li><li>Portal</li><li>bundle</li><li>split</li>
+              </ul>
+            </article>
+
+            <!-- Postman -->
+            <article class="tool-card">
+              <div class="tool-head">
+                <span class="tool-icon"><i class="fas fa-paper-plane"></i></span>
+                <h3 class="tool-name">Postman</h3>
+              </div>
+              <p class="tool-desc">Send requests, validate responses, automate collections.</p>
+              <ul class="tool-tags">
+                <li>Collections</li><li>Env</li><li>Tests</li>
+              </ul>
+            </article>
+
+            <!-- Markdown -->
+            <article class="tool-card">
+              <div class="tool-head">
+                <span class="tool-icon"><i class="fas fa-heading"></i></span>
+                <h3 class="tool-name">Markdown</h3>
+              </div>
+              <p class="tool-desc">Lightweight authoring for docs, READMEs, and portals.</p>
+              <ul class="tool-tags">
+                <li>MDX</li><li>Tables</li><li>Callouts</li>
+              </ul>
+            </article>
+
+            <!-- Docusaurus -->
+            <article class="tool-card">
+              <div class="tool-head">
+                <span class="tool-icon"><i class="fas fa-layer-group"></i></span>
+                <h3 class="tool-name">Docusaurus</h3>
+              </div>
+              <p class="tool-desc">Static site generator for fast, versioned doc sites.</p>
+              <ul class="tool-tags">
+                <li>Versioning</li><li>Search</li>
+              </ul>
+            </article>
+
+            <!-- GitLab & GitHub -->
+            <article class="tool-card">
+              <div class="tool-head">
+                <span class="tool-icon"><i class="fab fa-git-alt"></i></span>
+                <h3 class="tool-name">GitLab & GitHub</h3>
+              </div>
+              <p class="tool-desc">Version control, reviews, and CI/CD for docs-as-code.</p>
+              <ul class="tool-tags">
+                <li>CI/CD</li><li>PR/MR</li>
+              </ul>
+            </article>
+
+            <!-- HTML & CSS -->
+            <article class="tool-card">
+              <div class="tool-head">
+                <span class="tool-icon"><i class="fas fa-code"></i></span>
+                <h3 class="tool-name">HTML &amp; CSS</h3>
+              </div>
+              <p class="tool-desc">Semantic markup with clean, responsive styling.</p>
+              <ul class="tool-tags">
+                <li>Responsive</li><li>Accessibility</li>
+              </ul>
+            </article>
+
+            <!-- JavaScript -->
+            <article class="tool-card">
+              <div class="tool-head">
+                <span class="tool-icon"><i class="fas fa-bolt"></i></span>
+                <h3 class="tool-name">JavaScript <small>(learning)</small></h3>
+              </div>
+              <p class="tool-desc">Enhance docs with interactions and tooling.</p>
+              <ul class="tool-tags">
+                <li>ES6+</li><li>DOM</li>
+              </ul>
+            </article>
+
+            <!-- Video -->
+            <article class="tool-card">
+              <div class="tool-head">
+                <!-- <span class="tool-icon"><i class="fas fa-bolt"></i></span> -->
+                 <span class="tool-icon"><i class="fa fa-play-circle"></i></span>
+                <h3 class="tool-name">Video</small></h3>
+              </div>
+              <p class="tool-desc">Create / Enhance product video.</p>
+              <ul class="tool-tags">
+                <li>premier pro</li><li>Vids</li>
+              </ul>
+            </article>
+
+            <!-- SDLC -->
+            <!-- <article class="tool-card">
+              <div class="tool-head">
+                <span class="tool-icon"><i class="fas fa-project-diagram"></i></span>
+                <h3 class="tool-name">SDLC</h3>
+              </div>
+              <p class="tool-desc">Software Development Life Cycle — managing and documenting every phase.</p>
+              <ul class="tool-tags">
+                <li>Planning</li><li>Testing</li><li>Deployment</li>
+              </ul>
+            </article> -->
+
+          </div>
+        </div>
+       </section>
+
+
+      <!-- Awards -->
+      <section class="collapsible" id="awards" aria-expanded="false">
+        <div
+          class="collapsible__header"
+          tabindex="0"
+          role="button"
+          aria-expanded="false"
+          aria-controls="panel-awards"
+        >
+          <h2 class="collapsible__title">
+            Awards
+            <!-- <span class="collapsible__badge">Recognition</span> -->
+          </h2>
+          <!-- <i class="chev" aria-hidden="true"></i> -->
+        </div>
+
+        <div class="collapsible__panel" id="panel-awards" hidden>
+          <div class="awards-grid">
+            <!-- Award 1 -->
+            <article class="award-card">
+              <div class="award-head">
+                <span class="award-icon"><i class="fas fa-trophy"></i></span>
+                <div class="award-meta">
+                  <h3 class="award-title">Best Team Award</h3>
+                  <p class="award-org">L&amp;T Technology Services</p>
+                </div>
+              </div>
+              <!-- Optional details line -->
+              <!-- <p class="award-note">For cross‑functional delivery on mission‑critical releases.</p> -->
+            </article>
+
+            <!-- Award 2 -->
+            <article class="award-card">
+              <div class="award-head">
+                <span class="award-icon"><i class="fas fa-medal"></i></span>
+                <div class="award-meta">
+                  <h3 class="award-title">Employee of the Year</h3>
+                  <p class="award-org">L&amp;T Technology Services</p>
+                </div>
+              </div>
+              <p class="award-note">
+                Recognized for leading a 15‑member team and driving quality documentation at scale.
+              </p>
+            </article>
+
+            <!-- Award 3 -->
+            <article class="award-card">
+              <div class="award-head">
+                <span class="award-icon"><i class="fas fa-star"></i></span>
+                <div class="award-meta">
+                  <h3 class="award-title">Star of the Month</h3>
+                  <p class="award-org">Atlas Copco</p>
+                </div>
+              </div>
+              <!-- <p class="award-note">For consistently exceeding delivery expectations.</p> -->
+            </article>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Work sample -->
+      <section class="collapsible" id="worksamples" aria-expanded="false">
+        <div
+          class="collapsible__header"
+          tabindex="0"
+          role="button"
+          aria-expanded="false"
+          aria-controls="panel-skills"
+        >
+          <h2 class="collapsible__title">Work samples</h2>
+        </div>
+        <div class="collapsible__panel" id="panel-skills" hidden>
+          <div class="grid">
+            <div class="work-sample-grid">
+              <!-- Work Sample 1: OpenAPI Docs -->
+              <div class="work-sample-card openapi bg-one">
+                <i class="fas fa-file-alt"></i>
+                <h3>OpenAPI Documentation</h3>
+                <p>
+                  You can view the openAPI documentation, which consist of all
+                  the major parameters required of openAPI doc creation.
+                </p>
+                <!-- <a href="./openapi.html" target="_blank">View Sample</a> -->
+                <a
+                  href="https://deepudgowda.github.io/openAPI_document/"
+                  target="_blank"
+                  >View Details</a
+                >
+              </div>
+
+              <!-- Work Sample 2: Dynamic Docs -->
+              <div class="work-sample-card dynamic-docs bg-two">
+                <i class="fas fa-code"></i>
+                <h3>Docusaurus Documentation</h3>
+                <p>
+                  You can view the sample documentation created using
+                  Docusaurus, which is a static site generator for building a
+                  document.
+                </p>
+                <a
+                  href="https://deepudgowda.github.io/UX-UI_Docusaurus_doc/docs/intro"
+                  target="_blank"
+                  >View Details</a
+                >
+              </div>
+
+              <!-- Work Sample 3: Video -->
+              <div class="work-sample-card video bg-two">
+                <i class="fas fa-video"></i>
+                <h3>Product Video</h3>
+                <p>
+                  You can view product video showcasing key features of a loan
+                  application process. The video is designed to highlight the
+                  user journey.
+                </p>
+                <a href="./img/Loan_journey.mp4" target="_blank"
+                  >View Details</a
+                >
+              </div>
+
+              <!-- Work Sample 4: UX/UI Design -->
+              <div class="work-sample-card ux-ui bg-one">
+                <i class="fas fa-code"></i>
+                <h3>MkDoc Documentation</h3>
+                <p>
+                  You can view the sample documentation created using MkDoc,
+                  which is a static site generator for building a document.
+                </p>
+                <a
+                  href="https://deepudgowda.github.io/UI_Doc_MkDoc/"
+                  target="_blank"
+                  >View Details</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why me as a tech writer? -->
+
+      <section class="collapsible" id="whyme" aria-expanded="false">
+        <div
+          class="collapsible__header"
+          tabindex="0"
+          role="button"
+          aria-expanded="false"
+          aria-controls="panel-whyme"
+        >
+          <h2 class="collapsible__title">Why Me?</h2>
+          <!-- <i class="chev" aria-hidden="true"></i> -->
+        </div>
+
+        <div class="collapsible__panel" id="panel-whyme" hidden>
+          <div class="whyme-grid">
+            <!-- Card 1 -->
+            <div class="whyme-card accent-one">
+              <div class="whyme-card-content">
+                <h3><i class="fas fa-book-open"></i> Importance of Documentation</h3>
+                <p>
+                  In the fast-paced <b>Software-as-a-Service (SaaS)</b> industry,
+                  <b>a great product is only half the battle.</b> The other half is ensuring
+                  customers can <b>understand, adopt, and extract</b> maximum value from it.
+                  <br><br>
+                  This is where <b>technical documentation</b> becomes a cornerstone of success —
+                  not a cost center or afterthought, but a <b>growth driver</b> for efficiency and
+                  customer satisfaction.
+                </p>
+              </div>
+              <div class="whyme-image">
+                <img src="./img/product-list.jpeg" alt="Product documentation" />
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="whyme-card accent-three">
+              <div class="whyme-card-content">
+                <h3><i class="fas fa-pencil-ruler"></i> As a Technical Writer</h3>
+                <p>
+                  My mission is to make <b>technology understandable</b>. I
+                  <b>transform complex technical information</b> into clear, accessible
+                  content that empowers users and drives product success.
+                  <br><br>
+                  I design and write <b>user-focused documentation</b> that turns complex products into intuitive experiences.
+                  Alongside, I am enhancing my skills in <b>HTML, CSS, JavaScript</b> and learning <b>Python</b>,
+                  applying <b>SDLC</b> principles to create better documentation for real-world projects.
+                </p>
+              </div>
+              <div class="whyme-image">
+                <img src="./img/developer-image.jpeg" alt="Developer at work" />
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="whyme-card accent-one">
+              <div class="whyme-card-content">
+                <h3><i class="fas fa-award"></i> Rich Experience</h3>
+                <p>
+                  With <b>13+ years</b> in technical writing, I don't just document — I create
+                  <b>strategic assets</b> that improve <b>product value</b> for both software and
+                  hardware solutions. Skilled in <b>team leadership, lifecycle management, problem solving, and decision making</b>,
+                  I can rapidly <b>master new technologies</b> and contribute directly to product improvement.
+                </p>
+              </div>
+              <div class="whyme-image">
+                <img src="./img/why_me.jpeg" alt="Leadership and management" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Details -->
+       <section class="collapsible" id="education" aria-expanded="false" aria-colspan="edication-card-section">
+        <div
+          class="collapsible__header"
+          tabindex="0"
+          role="button"
+          aria-expanded="false"
+          aria-controls="panel-skills"
+        >
+          <h2 class="collapsible__title">Education details</h2>
+        </div>
+        <div class="collapsible__panel" id="panel-skills" hidden>
+          <table class="edu-table styled-table">
+          <thead>
+            <tr>
+              <th>Qualification</th>
+              <th>Institution</th>
+              <th>Board</th>
+              <th>Year</th>
+              <th>Percentage</th>
+            </tr>
+          </thead>
+          <tbody class="edu-text">
+            <tr>
+              <td style="width: 30%">BE in Mechanical Engineering</td>
+              <td style="width: 15%">GEC, Ramanagra</td>
+              <td style="width: 15%">VTU</td>
+              <td style="width: 15%">2008–2011</td>
+              <td style="width: 15%">65%</td>
+            </tr>
+            <tr>
+              <td>Diploma in Mechanical Engineering</td>
+              <td>GPT, Kushalnagara</td>
+              <td>DTE</td>
+              <td>2005–2008</td>
+              <td>66%</td>
+            </tr>
+            <tr>
+              <td>SSLC</td>
+              <td>DVSK, Kanagal</td>
+              <td>KSEEB</td>
+              <td>1995–2005</td>
+              <td>75%</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </section>
+
+      <!-- Personal Info -->
+      <section class="collapsible" id="personalinfo" aria-expanded="false">
+      <div class="collapsible__header" tabindex="0" role="button" aria-expanded="false" aria-controls="panel-personal">
+        <h2 class="collapsible__title">
+          Personal Info
+          <!-- <span class="collapsible__badge">Profile</span> -->
+        </h2>
+        <!-- <i class="chev" aria-hidden="true"></i> -->
+      </div>
+
+      <div class="collapsible__panel" id="panel-personal" hidden>
+        <div class="info-grid">
+          <!-- DOB -->
+          <article class="info-card">
+            <div class="info-icon" aria-hidden="true"><i class="fas fa-birthday-cake"></i></div>
+            <div class="info-content">
+              <h3 class="info-label">Date of Birth</h3>
+              <p class="info-value">01-06-1989</p>
+            </div>
+          </article>
+
+          <!-- Languages -->
+          <article class="info-card">
+            <div class="info-icon" aria-hidden="true"><i class="fas fa-comment-dots"></i></div>
+            <div class="info-content">
+              <h3 class="info-label">Languages</h3>
+              <p class="info-value">English, Kannada, Hindi, Telugu</p>
+            </div>
+          </article>
+
+          <!-- Marital Status -->
+          <article class="info-card">
+            <div class="info-icon" aria-hidden="true"><i class="fas fa-heart"></i></div>
+            <div class="info-content">
+              <h3 class="info-label">Marital Status</h3>
+              <p class="info-value">Married</p>
+            </div>
+          </article>
+
+          <!-- Hobbies -->
+          <article class="info-card">
+            <div class="info-icon" aria-hidden="true"><i class="fas fa-futbol"></i></div>
+            <div class="info-content">
+              <h3 class="info-label">Interests</h3>
+              <p class="info-value">Tech Exploration, Sports, Reading, Cooking, Travelling</p>
+            </div>
+          </article>
+
+          <!-- Current Address -->
+          <article class="info-card">
+            <div class="info-icon" aria-hidden="true"><i class="fas fa-home"></i></div>
+            <div class="info-content">
+              <h3 class="info-label">Current Address</h3>
+              <p class="info-value">#325/336, Begur, Bangalore - 560068</p>
+            </div>
+          </article>
+
+          <!-- Permanent Address -->
+          <article class="info-card">
+            <div class="info-icon" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="info-content">
+              <h3 class="info-label">Permanent Address</h3>
+              <p class="info-value">Kanagal (P&V), Haranahalli, Periyapattana, Mysuru - 571187</p>
+            </div>
+          </article>
+        </div>
+      </div>
+      </section>
+
+
+      <!-- Thank you -->
+       <!-- old -->
+      <!-- <section class="collapsible" id="skills" aria-expanded="false">
+        <div
+          class="collapsible__header"
+          tabindex="0"
+          role="button"
+          aria-expanded="false"
+          aria-controls="panel-skills"
+        >
+          <h2 class="collapsible__title">Thank you</h2>
+        </div>
+        <div class="collapsible__panel" id="panel-skills" hidden>
+          <div>
+            <p>
+          Dear Colleague,
+          <br /><br /><br />
+          Thank your for your time, and i hope this portfolio provides clear
+          insight into my experience, responsibilities, dedication and
+          capabilities. If you're looking for additional information, you can
+          reach out and i would be happy to connect and help each other. I look
+          forward to the opportunity to contribute my skills and experience.
+        </p>
+        <h2 style="text-align: center; padding: 20px 0">Thank you</h2>
+        <p style="text-align: right">Deepu Gowda</p>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- New -->
+      <section class="collapsible" id="thanks" aria-expanded="false">
+        <div
+          class="collapsible__header"
+          tabindex="0"
+          role="button"
+          aria-expanded="false"
+          aria-controls="panel-thank-you"
+        >
+          <h2 class="collapsible__title">
+            Thank You
+            <!-- <span class="collapsible__badge">Closing</span> -->
+          </h2>
+          <!-- <i class="chev" aria-hidden="true"></i> -->
+        </div>
+
+        <div class="collapsible__panel" id="panel-thank-you" hidden>
+          <div class="thanks-wrap">
+            <article class="thanks-card">
+              <div class="thanks-intro">
+                <div class="thanks-icon" aria-hidden="true">
+                  <i class="fas fa-handshake"></i>
+                </div>
+                <div>
+                  <h3 class="thanks-heading">Dear Colleague,</h3>
+                  <p class="thanks-body">
+                    Thank you for your time. I hope this portfolio offers a clear view of my experience,
+                    responsibilities, and the quality I aim to bring to the work. If you’d like any additional
+                    details, I’m happy to connect—let’s find ways to help each other succeed.
+                  </p>
+                </div>
+              </div>
+
+              <blockquote class="thanks-quote">
+                “Clarity, consistency, and ownership—these are the principles I bring to every deliverable.”
+              </blockquote>
+
+              <div class="thanks-cta">
+                <a href="mailto:deepukanagal@gmail.com" class="btn btn-primary">
+                  <i class="fas fa-envelope"></i><span>Email</span>
+                </a>
+                <a href="https://linkedin.com/in/deepu-gowda-88a59763/" target="_blank" class="btn btn-ghost">
+                  <i class="fab fa-linkedin"></i><span>LinkedIn</span>
+                </a>
+                <!-- If you have a resume file, point the href to it -->
+                <!-- <a href="./Deepu_Gowda_Resume.pdf" class="btn btn-ghost" download>
+                  <i class="fas fa-file-arrow-down"></i><span>Download CV</span>
+                </a> -->
+              </div>
+
+              <div class="thanks-signoff">
+                <div class="sign-line" aria-hidden="true"></div>
+                <p class="sign-text">Deepu Gowda</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Sticky mobile footer (auto-shown ≤768px) -->
+    <footer class="mobile-footer" id="mobileFooter" aria-label="Mobile footer">
+      <nav class="mobile-footer__nav">
+        <a href="#introduction" class="mobile-footer__link"
+          ><i class="fas fa-phone"></i><span>+91 9004290064</span></a
+        >
+        <a href="https://linkedin.com/in/deepu-gowda-88a59763/" class="mobile-footer__link" target="_blank"
+          ><i class="fab fa-linkedin"></i><span>linkedin</span></a
+        >
+        <!-- <a
+            href="https://linkedin.com/in/deepu-gowda-88a59763/"
+            style="color: #00bcd4"
+            >LinkedIn</a
+          > -->
+        <a href="#contact" class="mobile-footer__link" target="_blank"
+          ><i class="fas fa-envelope"></i><span>deepukanagal@gmail.com</span></a
+        >
+      </nav>
+    </footer>
+  </body>
+</html>
