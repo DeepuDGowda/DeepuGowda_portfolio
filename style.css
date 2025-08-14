@@ -240,7 +240,9 @@ section {
   .img-profile, .profile-text {
     display: none;
   }
-  
+  .intro-highlights{
+  padding-left: 2px;}
+
   .sidebar img {
     width: 100px;
     border-radius: 50%;
@@ -258,6 +260,13 @@ section {
   section[id] {
     scroll-margin-top: calc(var(--mobile-header-h) + 8px);
   }
+  section {
+  background: #fff;
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
 }
 
 /* Collapsible sections */
@@ -977,7 +986,7 @@ section {
 .intro-highlights{
   list-style:none; padding:0; margin:4px 0 0 0;
   display:grid; gap:6px;
-  padding-left: 60px;
+  padding-left: 2px;
 }
 .intro-highlights li{
   display:flex; align-items:flex-start; gap:8px;
